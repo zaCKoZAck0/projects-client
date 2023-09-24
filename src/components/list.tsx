@@ -1,4 +1,3 @@
-import React from 'react';
 
 function CommaSeparatedList({ s }:{s: string}) {
   const valuesArray = s.split(',').map(value => value.trim());
