@@ -23,7 +23,7 @@ function NavBar() {
     <>
         <Navbar expand={'md'} fixed="top" className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <span className='display-6'>
               Project Details
               </span>
@@ -42,8 +42,8 @@ function NavBar() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 py-2 align-middle pe-3">
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="#action1">Backend</Nav.Link>
-                  <Nav.Link href="#action2">GitHub</Nav.Link>
+                  <Nav.Link href="https://projects-service.onrender.com/api/projects">Backend</Nav.Link>
+                  <Nav.Link href="https://docs.google.com/document/d/1WANctaJ3lPH_DdJ4a2XqNkwMkF3Jxf415oHTvj0SSdA/edit?usp=sharing">Submission Document</Nav.Link>
                 </Nav>
                 <Form className="d-flex" onSubmit={search}>
                   <Form.Control
