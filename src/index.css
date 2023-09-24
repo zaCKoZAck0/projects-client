@@ -1,0 +1,46 @@
+.project-card {
+  box-shadow: 1px 1px 5px black;
+  padding: 10px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  box-shadow: 1px 1px 10px black;
+  transform: translateY(-2px);
+}
+
+.bullet-heading::before {
+  content: " > ";
+  text-decoration: none;
+  margin-right: 5px; 
+  color: #333;
+}
+
+[class^="message-"] {
+  transition: color;
+  transition-duration: .3s;
+  transition-delay: 0.3s;
+  background-color: indianred;
+  color:white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+@keyframes v {
+  
+}
+
+.message-keyword{
+  background-color: indianred;
+}
+
+.message-attribute{
+  background-color: forestgreen;
+}
+
+.ai-dialog{
+  border: 1px dashed #333;
+  flex-wrap: wrap;
+  margin: 15px;
+}
