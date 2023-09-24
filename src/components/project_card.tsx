@@ -3,17 +3,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import List from './list';
-
-
-export type ProjectCards = {
-    id: number,
-    title: string,
-    technologies: string,
-    backend: string,
-    frontend: string,
-    databases: string,
-    infrastructure: string
-}
+import {ProjectCards} from '../types/Projects'
 
 function ProjectCard(props: ProjectCards) {
   const [show, setShow] = useState(false);

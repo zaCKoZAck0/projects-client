@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import ProjectCard, { ProjectCards } from "./project_card"
+import ProjectCard from "./project_card"
+import {ProjectCards} from '../types/Projects'
 import { useLocation } from "react-router-dom";
 import AIPrompt from "./ai-prompt";
 
