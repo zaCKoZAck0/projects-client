@@ -45,7 +45,7 @@ function CardContainer() {
             <div style={{paddingTop: "80px", paddingBottom: "80px", minHeight:"100vh"}} className="container">
                 <AIPrompt message={message} length={projects.length} />
                 <div className="display-1 text-center">{loading?"Loading...":"Nothing to Display"}</div>
-                <div className="text-center">{loading?"May take some time⏳, please wait!":"Try another Query!"}</div>
+                <div className="text-center my-4">{loading?"May take some time⏳, please wait!":"Try another Query!"}</div>
             </div>
         )
     }
